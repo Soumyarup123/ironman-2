@@ -26,7 +26,6 @@ function draw() {
   background(bgimg); 
   background.scale=2;
   ironman.setCollider("rectangle",100,0,200,400);
-  ironman.debug=true;
   
   ironman.bounceOff(edges[0]);
   ironman.bounceOff(edges[1]);
